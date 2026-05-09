@@ -46,7 +46,7 @@ const LINKS = [
         title: 'Yellicare',
         desc: 'Hub de santé & bien-être',
         sub: 'React · Vite · Vercel',
-        url: 'https://yellicare33.vercel.app',
+        url: 'https://yellicare.vercel.app',
         color: '#2a8a7a',
         bg: '#e4f4f0',
         icon: '💚',
