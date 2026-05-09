@@ -11,7 +11,7 @@ const PROFILE = {
 
 const LINKS = [
   {
-    section: 'Projets Dev',
+    section: 'Mes Projets',
     items: [
       {
         title: 'Centre Éducatif Agadir',
@@ -26,42 +26,28 @@ const LINKS = [
         title: 'Just Koul',
         desc: 'App de commandes de repas scolaires',
         sub: 'React · Vite · Framer Motion',
-        url: 'https://just-koul.vercel.app', // ← remplace par ton URL réel
+        url: 'https://just-koul.vercel.app',
         color: '#b86832',
         bg: '#f5ede4',
         icon: '🥗',
       },
       {
-        title: 'Dar Chwiter',
-        desc: "Business plan & visualisation d'espace",
-        sub: 'React · ReportLab',
-        url: '#', // ← remplace par ton URL
-        color: '#4a7a45',
-        bg: '#e8f0e6',
-        icon: '🌿',
-      },
-    ],
-  },
-  {
-    section: 'Autres Créations',
-    items: [
-      {
-        title: 'Argane & Bouleau',
-        desc: 'Collection mode modeste',
-        sub: 'Amazigh × Folk russe · Lookbook React',
-        url: '#',
-        color: '#b05070',
-        bg: '#f5e8ee',
-        icon: '🧵',
+        title: 'Nuance Ludique',
+        desc: 'Espace jeux de société & café',
+        sub: 'React · Vite · Tailwind · shadcn/ui',
+        url: 'https://nuance-ludique.com',
+        color: '#7a45a3',
+        bg: '#f0eaf8',
+        icon: '🎲',
       },
       {
-        title: 'Modules Pédagogiques',
-        desc: 'Ressources CE2 → Terminale',
-        sub: 'PDFs éducatifs · Contexte marocain',
-        url: '#',
-        color: '#7a6a50',
-        bg: '#f0ece4',
-        icon: '📚',
+        title: 'Yellicare',
+        desc: 'Hub de santé & bien-être',
+        sub: 'React · Vite · Vercel',
+        url: 'https://yellicare33.vercel.app',
+        color: '#2a8a7a',
+        bg: '#e4f4f0',
+        icon: '💚',
       },
     ],
   },
