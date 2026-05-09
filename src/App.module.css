@@ -2,6 +2,20 @@
   min-height: 100vh;
   background-color: var(--bg);
   padding: 3rem 1.5rem 5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+/* ── Background pattern ── */
+.bgPattern {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 280px;
+  opacity: 0.045;
+  pointer-events: none;
+  color: inherit;
 }
 
 .container {
@@ -40,21 +54,51 @@
   margin-bottom: 0.35rem;
 }
 
-.tagline {
+.role {
   font-size: 13px;
   font-weight: 300;
   color: var(--text-secondary);
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.6rem;
 }
 
-.location {
+.bio {
   font-size: 13px;
-  color: var(--text-tertiary);
+  color: var(--text-secondary);
   text-align: center;
-  margin-bottom: 2.5rem;
+  line-height: 1.6;
+  max-width: 340px;
+  margin: 0 auto 1.25rem;
+}
+
+/* ── Socials ── */
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+
+.social {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 5px 14px;
+  text-decoration: none;
+  transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+}
+
+.social:hover {
+  color: var(--text-primary);
+  border-color: var(--border-hover);
+  background: var(--bg-card);
 }
 
 /* ── Sections ── */
@@ -153,31 +197,6 @@
   color: var(--accent);
 }
 
-/* ── Divider ── */
-.divider {
-  height: 1px;
-  background: var(--border);
-  margin: 0.5rem 0 1.75rem;
-}
-
-/* ── Tags ── */
-.tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-}
-
-.tag {
-  display: inline-block;
-  font-size: 11px;
-  font-weight: 400;
-  padding: 3px 10px;
-  border-radius: 20px;
-  background: var(--bg-card);
-  color: var(--text-secondary);
-  border: 1px solid var(--border);
-  letter-spacing: 0.2px;
-}
 
 /* ── Footer ── */
 .footer {
