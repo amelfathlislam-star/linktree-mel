@@ -5,7 +5,6 @@ const PROFILE = {
   initials: 'M',
   name: 'Mel',
   tagline: 'Dev full-stack · Éducation · Entrepreneuriat',
-  location: 'Agadir, Maroc 🇲🇦',
   stack: ['React', 'Vite', 'Supabase', 'Vercel', 'Framer Motion', 'Python / ReportLab', 'Tailwind'],
 }
 
@@ -67,7 +66,6 @@ export default function App() {
         {/* Header */}
         <h1 className={styles.name}>{PROFILE.name}</h1>
         <p className={styles.tagline}>{PROFILE.tagline}</p>
-        <p className={styles.location}>{PROFILE.location}</p>
 
         {/* Link sections */}
         {LINKS.map((group) => (
@@ -112,7 +110,7 @@ export default function App() {
         </div>
 
         {/* Footer */}
-        <p className={styles.footer}>Fait maison à Agadir</p>
+        <p className={styles.footer}>Fait maison 🛠️</p>
       </div>
     </main>
   )
